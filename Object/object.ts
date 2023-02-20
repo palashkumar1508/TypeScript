@@ -6,7 +6,6 @@ let user:User = {
     names : "dfgdf"
 }
 
-
 let display = (user:User)=>{
     console.log(user.names);
     console.log(user.roll);
