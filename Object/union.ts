@@ -56,3 +56,16 @@ let fixId = (id : string | number)=>{
 // In the above program we are validating the type of entered value is either string or number and according to that returning val
 fixId(45)
 fixId("small")
+
+
+//Using Union in Arrays
+let arr:number [] = [45, 100]
+let arr1 :string [] = ['abc' , ' xyz']
+let arr22 : (string | number) [] = [45 , 'abc'] // IF WE WANT THE ARRAYS TO ACCEPT MOPRE THAN ONE DATA TYPE THEN WE HAVE TO ENCLOSE IT WITHIN (datatype | datatype)
+
+
+//LITERAL ASSIGNMENT 
+let salary :4500 = 4500;
+// salary = 5000;  {We can not re-assign the value becuz it is having the value pre-assign val of 4500 - it will throw error}
+
+
