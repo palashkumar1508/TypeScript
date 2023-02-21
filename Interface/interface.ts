@@ -60,3 +60,4 @@ palash.id = 455555;
 console.log(palash.id);
  console.log(palash.work());
   
+
