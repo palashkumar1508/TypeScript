@@ -24,3 +24,12 @@ nay.age = 45;
 nay.speak('engllish');
 nay.spend(44);
 console.log(nay.name);
+// let num:unknown
+// num as number
+// console.log("sdfsdsgs");
+// let myVar: any =4 // myVar is of type "any"
+// let myNum: number = myVar as number; // myVar is cast as a number
+// console.log(typeof myNum); // "number"
+// let myStr: string = <string>myVar; // myVar is cast as a string
+// console.log(typeof myStr); // "string"
+// console.log(myVar);
