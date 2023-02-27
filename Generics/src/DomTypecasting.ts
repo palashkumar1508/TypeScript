@@ -12,3 +12,4 @@ console.log("bjkjbkjb");
 // let fidge = new Invoice("Ankit" , "fridge", 5000)
 // console.log(fidge.amount);
 
+  
