@@ -1,9 +1,19 @@
 interface A {
-    [key:string] :Object
+    [key:string] :boolean | Object[];
+    // [key:string] : object
 }
 
-let name :A = {
-    'Palash' : {name : 'hello', age :24}
+let names :A = {
+    "Palash" : false,
+    "Store" :true,
+    "Start" :false,
+    "Obj" : [{abc :'hello' , cd :'hiiiii'} , {ghi :'hello' , fff :'hiiiii'}]
 }
 
-console.log(name['Palash'].name);
+console.log(names["Obj"][1].fff);
+
+// type Any = string | number | Object | Object[] 
+
+function acceptAnyData <T> (abc :T):T{
+     return abc
+}
