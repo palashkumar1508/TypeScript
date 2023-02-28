@@ -9,3 +9,9 @@ console.log(names["Obj"][1].fff);
 function acceptAnyData(abc) {
     return abc;
 }
+var indLang = {
+    "Hindi": "India"
+};
+var abcd = {
+    "English": "Us"
+};
